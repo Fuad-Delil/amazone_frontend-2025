@@ -1,0 +1,157 @@
+.fixed {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.outerContainer {
+  background-color: #131921;
+}
+.innerContainer {
+  padding: 2px 10px;
+  display: flex;
+  height: 11vh;
+  align-items: center;
+}
+
+.Logo {
+  display: flex;
+  align-items: center;
+}
+.Logo a img {
+  width: 130px;
+  padding-top: 20px;
+}
+.location {
+  color: white;
+  font-size: 24px;
+  padding-top: 15px;
+}
+.delivered_text {
+  color: white;
+  font-size: 20px;
+}
+.delivered_text p {
+  color: rgba(252, 251, 249, 0.393);
+  font-size: 12px;
+}
+.location_container {
+  display: flex;
+  margin: 0 20px;
+}
+.location_container:hover {
+  border: solid white 0.5px;
+  border-radius: 5px;
+}
+
+.inputSection {
+  display: flex;
+  height: 8vh;
+  border-radius: 30px;
+}
+.inputSection select {
+  background-color: #e6e6e6;
+  padding: 10px;
+  border-radius: 8px 0 0 8px;
+}
+
+.inputSection input {
+  width: 490px;
+  margin-left: -2px;
+}
+.inputSection input:hover {
+  border: solid rgba(128, 128, 128, 0.61) 3px;
+  border-radius: 5px;
+}
+.inputSection span {
+  padding: 12px;
+  margin-left: -2px;
+  margin-right: 20px;
+  background-color: #b06401;
+  border-radius: 0 8px 8px 0;
+  font-size: 20px;
+}
+.flag {
+  display: flex;
+  align-items: center;
+  padding: 7px 7px 0 0;
+}
+.flag:hover {
+  border: solid white 0.5px;
+  align-items: center;
+  border-radius: 5px;
+}
+.flag p {
+  color: white;
+  padding-right: 3px;
+}
+.flag img {
+  width: 35px;
+  height: 20px;
+  padding-right: 7px;
+}
+
+.cart_side {
+  display: flex;
+  gap: 20px;
+}
+
+.cart_side a {
+  text-decoration: none;
+  color: white;
+}
+.cart_side a p {
+  color: rgba(252, 251, 249, 0.393);
+}
+.cart_side a:hover {
+  border: solid white 0.5px;
+  border-radius: 5px;
+}
+.cartContainer {
+  display: flex;
+  position: relative;
+}
+.cartContainer span {
+  padding-top: 22px;
+  font-size: 20px;
+}
+.cart_Icon {
+  font-size: 40px;
+}
+.cartCounter {
+  position: absolute;
+  top: -29px;
+  left: 14px;
+  color: rgb(255, 0, 0);
+}
+
+/* style for lower header */
+
+.lowerHeaderContainer {
+  background-color: #232f3e;
+  padding: 9px;
+}
+.lowerHeaderContainer ul {
+  width: 700px;
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+.lowerHeaderContainer ul li {
+  list-style: none;
+}
+.lowerHeaderContainer ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+.lowerHeaderContainer ul li:hover {
+  border: solid white 1px;
+  padding: 3px;
+  border-radius: 5px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
